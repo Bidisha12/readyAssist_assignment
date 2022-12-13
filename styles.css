@@ -1,0 +1,73 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7a7877;
+}
+
+.header_btn {
+    border:none;
+    background: none;
+    color: white;
+}
+
+a {
+    color: inherit !important;
+}
+
+h5 {
+    text-align: center;
+}
+
+.valueText {
+    font-weight: 400;
+    font-size: small;
+}
+
+.tourney-ball {
+    height: 50px;
+    width: 50px !important;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.tourney, .toggleTourney{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    background-color: #595c5a;
+    color: white;
+    width: max-content;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+footer {
+    background-color: #7a7877;
+    height: 60px;
+}
+
+.img {
+    height:200px;
+    width: 100%;
+}
+
+.tourney-toggle-button {
+    width: 50px !important;
+    height: 30px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+        height : 100px;
+    }
+    .container {
+        width: 100%;
+    }
+  }
+
